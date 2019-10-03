@@ -1,6 +1,8 @@
 call pathogen#infect()
 call pathogen#helptags()
 
+set statusline=%<%f\ %h%m%r%{FugitiveStatusline()}%=%-14.(%l,%c%V%)\ %P
+
 set hidden
 
 set backspace=eol,indent,start
@@ -31,9 +33,6 @@ command! Status echo "All systems are go"
 if has("autocmd")
     filetype plugin indent on 
 endif
-
-
-
 
 " uncomment to insert spaces instead of a tab when tab is pressed
 "set expandtab
