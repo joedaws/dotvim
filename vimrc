@@ -1,3 +1,8 @@
+call pathogen#infect()
+call pathogen#helptags()
+
+set hidden
+
 set backspace=eol,indent,start
 set autoindent
 
@@ -18,26 +23,31 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
-
 set ruler
-set background=dark
 
-filetype plugin indent on 
 syntax on
-"color dracula
+command! Status echo "All systems are go"
+"set background=dark
+if has("autocmd")
+    filetype plugin indent on 
+endif
+
+
+
+
 " uncomment to insert spaces instead of a tab when tab is pressed
 "set expandtab
 
 " uncomment to use a different color map
-:hi Comment   term=bold cterm=NONE ctermfg=Cyan ctermbg=NONE gui=NONE guifg=Blue guibg=NONE
-:hi Constant  term=underline cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=Magenta guibg=NONE
-:hi Special   term=bold cterm=NONE ctermfg=Magenta ctermbg=NONE gui=NONE guifg=SlateBlue guibg=NONE
-:hi Identifier   term=underline cterm=NONE ctermfg=Blue ctermbg=NONE gui=NONE guifg=Cyan guibg=NONE
-:hi Statement term=bold cterm=NONE ctermfg=Yellow ctermbg=NONE gui=bold guifg=Brown guibg=NONE
-:hi PreProc   term=underline cterm=NONE ctermfg=Magenta ctermbg=NONE gui=NONE guifg=Purple guibg=NONE
-:hi Type      term=underline cterm=NONE ctermfg=Green ctermbg=NONE gui=bold guifg=SeaGreen guibg=NONE
-:hi Underlined   term=underline cterm=underline ctermfg=Magenta gui=underline guifg=SlateBlue
-:hi Ignore term=NONE cterm=NONE ctermfg=white ctermbg=NONE gui=NONE guifg=bg guibg=NONE
+":hi Comment   term=bold cterm=NONE ctermfg=Cyan ctermbg=NONE gui=NONE guifg=Blue guibg=NONE
+":hi Constant  term=underline cterm=NONE ctermfg=Red ctermbg=NONE gui=NONE guifg=Magenta guibg=NONE
+":hi Special   term=bold cterm=NONE ctermfg=Magenta ctermbg=NONE gui=NONE guifg=SlateBlue guibg=NONE
+":hi Identifier   term=underline cterm=NONE ctermfg=Blue ctermbg=NONE gui=NONE guifg=Cyan guibg=NONE
+":hi Statement term=bold cterm=NONE ctermfg=Yellow ctermbg=NONE gui=bold guifg=Brown guibg=NONE
+":hi PreProc   term=underline cterm=NONE ctermfg=Magenta ctermbg=NONE gui=NONE guifg=Purple guibg=NONE
+":hi Type      term=underline cterm=NONE ctermfg=Green ctermbg=NONE gui=bold guifg=SeaGreen guibg=NONE
+":hi Underlined   term=underline cterm=underline ctermfg=Magenta gui=underline guifg=SlateBlue
+":hi Ignore term=NONE cterm=NONE ctermfg=white ctermbg=NONE gui=NONE guifg=bg guibg=NONE
 
 :set number
 
