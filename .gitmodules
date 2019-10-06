@@ -7,3 +7,6 @@
 [submodule "bundle/latex"]
 	path = bundle/latex
 	url = https://github.com/vim-latex/vim-latex.git
+[submodule "/Users/jdaws/.vim/bundle/vim-elixir"]
+	path = /Users/jdaws/.vim/bundle/vim-elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
