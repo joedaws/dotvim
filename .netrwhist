@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/josephdaws/Documents/Code/high-dimensional-regression'
+let g:netrw_dirhist_2='/Users/josephdaws/Documents/Code/slit-domain-problem'
+let g:netrw_dirhist_3='/Users/josephdaws/.vim/bundle'
