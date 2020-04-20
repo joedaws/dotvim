@@ -8,6 +8,9 @@ set hidden
 set backspace=eol,indent,start
 set autoindent
 
+" Needed for vimwiki "
+set nocompatible
+
 " toggle between paste and nopaste mode using F3
 set pastetoggle=<F3>
 
