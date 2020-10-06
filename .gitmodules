@@ -26,6 +26,6 @@
 	path = pack/minpac/opt/minpac
 	url = https://github.com/k-takata/minpac.git
 [submodule "pack/minpac/opt/vim-scriptease"]
-	path = pack/bundle/start/vim-scriptease
+	path = pack/minpac/opt/vim-scriptease"
 	url = https://github.com/tpope/vim-scriptease.git
 	
