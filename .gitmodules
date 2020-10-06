@@ -1,15 +1,25 @@
-[submodule "bundle/fugitive"]
-	path = bundle/fugitive
+[submodule "pack/bundle/start/fugitive"]
+	path = pack/bundle/start/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "bundle/dracula-theme"]
-	path = bundle/dracula-theme
-	url = https://github.com/dracula/dracula-theme.git
-[submodule "bundle/latex"]
-	path = bundle/latex
+[submodule "pack/bundle/start/latex"]
+	path = pack/bundle/start/latex
 	url = https://github.com/vim-latex/vim-latex.git
-[submodule "bundle/vim-elixir"]
-	path = bundle/vim-elixir
+[submodule "pack/bundle/start/vim-elixir"]
+	path = pack/bundle/start/vim-elixir
 	url = https://github.com/elixir-lang/vim-elixir.git
-[submodule "bundle/vimwiki"]
-	path = bundle/vimwiki
+[submodule "pack/bundle/start/vim-wiki"]
+	path = pack/bundle/start/vim-wiki
 	url = https://github.com/vimwiki/vimwiki.git
+[submodule "pack/bundle/start/vim-latex-live-preview"]
+	path = pack/bundle/start/vim-latex-live-preview
+	url = https://github.com/xuhdev/vim-latex-live-preview.git
+[submodule "pack/bundle/start/fzf"]
+	path = pack/bundle/start/fzf
+	url = https://github.com/junegunn/fzf.vim.git
+[submodule "pack/bundle/start/gruvbox"]
+	path = pack/bundle/start/gruvbox
+	url = https://github.com/https://github.com/morhetz/gruvbox.git
+[submodule "pack/bundle/start/vim-projectionist"]
+	path = pack/bundle/start/vim-projectionist
+	url = https://github.com/https://github.com/morhetz/gruvbox.git
+
