@@ -18,8 +18,14 @@
 	url = https://github.com/junegunn/fzf.vim.git
 [submodule "pack/bundle/start/gruvbox"]
 	path = pack/bundle/start/gruvbox
-	url = https://github.com/https://github.com/morhetz/gruvbox.git
+	url = https://github.com/morhetz/gruvbox.git
 [submodule "pack/bundle/start/vim-projectionist"]
 	path = pack/bundle/start/vim-projectionist
-	url = https://github.com/https://github.com/morhetz/gruvbox.git
-
+	url = https://github.com/tpope/vim-projectionist.git
+[submodule "pack/minpac/opt/minpac"]
+	path = pack/minpac/opt/minpac
+	url = https://github.com/k-takata/minpac.git
+[submodule "pack/minpac/opt/vim-scriptease"]
+	path = pack/bundle/start/vim-scriptease
+	url = https://github.com/tpope/vim-scriptease.git
+	
